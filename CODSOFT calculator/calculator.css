@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #883cca, #d848b2);
+
+}
+
+table {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  padding: 40px;
+  height: 350px;
+  width: 250px;
+}
+
+.glass {
+  text-align: center;
+  background: rgba(129, 84, 170, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: rgb(190, 190, 190);
+  font-family: Archivo Black;
+  width: 250px;
+}
+
+span {
+  font-family: Bitcount Single;
+}
+
+input {
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #525253;
+  color: white;
+  font-size: large;
+  width: 300px;
+}
+
+input::placeholder {
+  color: #FFFFFF;
+  font-size: large;
+  font-weight: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 20px;
+}
+
+.EQ {
+  color: #FFFFFF;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: #e02686;
+}
+
+.zero {
+  color: #2D2D44;
+  background-color: rgb(250, 52, 135);
+  border: none;
+  color: white;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.op {
+  background-color: #8e3dda;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cls {
+  background-color: #fd1c3e;
+  border-color: black;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: wheat;
+  font-family: Archivo Black;
+}
+
+button {
+  color: #EAEAEA;
+  background-color: #2B2E4A;
+  border-radius: 6px;
+  font-style: italic;
+  border: none;
+  margin: 4px;
+  padding: 23px;
+  font-family: Archivo Black;
+  box-shadow: 0 4px 10px rgba(22, 21, 21, 0.25);
+  transition: 0.1s;
+}
+
+button:active {
+  transform: translateY(6px);
+  box-shadow: 0 0 0 #222229;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <!--font for calc-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Single:wght@100..900&family=Black+Ops+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+  <table>
+    <div class="glass">
+      <h1>Simple Calculator</h1>
+      <span>@ Mouse</span>
+    </div>
+
+    <tr>
+      <td colspan="5">
+        <input type="text" placeholder="0" id="result" value="" readonly />
+      </td>
+    </tr>
+    <tr>
+      <td><button class="cls" onclick="clr()">C</button></td>
+      <td><button class="op" onClick="append ('+');">+</button></td>
+      <td><button class="op" onClick="append ('-');">-</button></td>
+      <td><button class="op" onClick="append ('*');">*</button></td>
+      <td><button class="op" onClick="append ('/');">/</button></td>
+    </tr>
+    <tr>
+      <td><button onClick="append ('9');">9</button></td>
+      <td><button onClick="append ('8');">8</button></td>
+      <td><button onClick="append ('7');">7</button></td>
+      <td><button onClick="append ('6');">6</button></td>
+      <td rowspan="3"><button class="EQ" onclick="cal1();">=</button></td>
+    </tr>
+    <tr>
+      <td><button onClick="append ('5');">5</button></td>
+      <td><button onClick="append ('4');">4</button></td>
+      <td><button onClick="append ('3');">3</button></td>
+      <td><button onClick="append ('2');">2</button></td>
+    </tr>
+    <tr>
+      <td><button onClick="append ('1');">1</button></td>
+      <td colspan="3" align="center">
+        <button class="zero" onClick="append ('0');">0</button>
+      </td>
+    </tr>
+  </table>
+
+  <script src="calculator.js"></script>
+</body>
+
+</html>
